@@ -6,7 +6,7 @@ export async function middleware(request) {
 
 export const config = {
   matcher: [
-    "/page.jsx",
+    "/page.js",
     /*
      * Match all request paths except for the ones starting with:
      * - _next/static (static files)
